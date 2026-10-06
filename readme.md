@@ -1,4 +1,4 @@
-# Tugas Individu - Desain Web
+# Tugas Individu - Prak.Desain Web 
 
 Nama: Muhammad Nadzril Ilham Kusuma  
 NPM: 4525210084
@@ -7,7 +7,7 @@ NPM: 4525210084
 
 ## Tugas Praktikum Pertemuan 4
 
-Membangun ulang halaman profil portofolio menjadi dua *file* terpisah (`index.html` dan `style.css`). Halaman ini dibangun menggunakan konsep CSS eksternal, *Box Model*, penerapan minimal dua *class reusable*, CSS Flexbox untuk *layout*, serta *responsive design* menggunakan *media query* di bawah 768px.
+Membangun ulang halaman profil portofolio menjadi dua *file* terpisah (`index.html` dan `style.css`). Halaman ini dibangun menggunakan konsep CSS eksternal, *Box Model*, penerapan minimal dua *class reusable*, CSS Flexbox untuk *layout* yang lebih rapi, serta *responsive design* menggunakan *media query* di bawah 768px.
 
 ---
 
