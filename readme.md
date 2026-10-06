@@ -1,11 +1,11 @@
 # Tugas Individu - Desain Web
 
-Nama: M Nadzril Ilham K  
-NPM: [Masukkan NPM Anda di sini]
+Nama: Muhammad Nadzril Ilham Kusuma  
+NPM: 4525210084
 
 ---
 
-## Isi Tugas
+## Tugas Praktikum Pertemuan 4
 
 Membangun ulang halaman profil portofolio menjadi dua *file* terpisah (`index.html` dan `style.css`). Halaman ini dibangun menggunakan konsep CSS eksternal, *Box Model*, penerapan minimal dua *class reusable*, CSS Flexbox untuk *layout*, serta *responsive design* menggunakan *media query* di bawah 768px.
 
@@ -28,7 +28,7 @@ Membangun ulang halaman profil portofolio menjadi dua *file* terpisah (`index.ht
 *File* HTML menggunakan struktur semantik dasar seperti `<header>`, `<section>`, `<nav>`, dan `<footer>`. Di dalamnya memuat berbagai informasi mulai dari navigasi, *hero section* (profil), tentang saya, project, layanan jasa, dan kontak.
 
 ### CSS
-*File* `style.css` digunakan untuk mengatur tampilan visual *website*, termasuk tipografi, warna *background*, ukuran gambar, jarak antar elemen, hingga transisi saat kursor diarahkan ke tombol atau kartu (*hover*). CSS dibuat terpisah dan dihubungkan ke HTML melalui tag `<link>`.
+*File* `style.css` digunakan untuk mengatur tampilan visual *website*, termasuk tipografi, warna *background*, ukuran gambar, jarak antar elemen, hingga transisi saat kursor diarahkan ke tombol atau kartu (*hover*). CSS dibuat terpisah dan dihubungkan ke HTML melalui tag `<link>`. menggunakan class reusable.
 
 ---
 
@@ -113,17 +113,17 @@ Font Utama: Arial, sans-serif
 ## Screenshot
 
 ### Desktop
-*(Tambahkan gambar screenshot tampilan desktop di sini)*
-`![Tampilan Desktop](link-gambar-desktop.png)`
+<img width="2880" height="4136" alt="screenshot-desktop" src="https://github.com/user-attachments/assets/2f55b2dc-aad8-4740-98e3-b32d61315e2a" />
+
 
 ### Mobile
-*(Tambahkan gambar screenshot tampilan mobile di sini)*
-`![Tampilan Mobile](link-gambar-mobile.png)`
+<img width="1206" height="11265" alt="screenshot-mobile" src="https://github.com/user-attachments/assets/f38f3c76-f5a2-4e8c-81f1-b87a8eb1ef1d" />
+
 
 ---
 
 ## Ringkasan dan Kesimpulan
 
-Pada tugas individu ini, saya telah berhasil membangun ulang halaman profil portofolio menjadi dua *file* terpisah, yaitu `index.html` untuk mengatur struktur konten dan `style.css` untuk mengatur presentasi visualnya. Pemisahan ini membuat kode menjadi jauh lebih terstruktur, bersih, dan mudah dikelola. Dalam proses pengembangannya, saya menerapkan konsep *Box Model* secara menyeluruh. Hal ini diawali dengan menggunakan deklarasi `box-sizing: border-box` pada *universal selector* agar perhitungan dimensi elemen lebih konsisten dan tidak terganggu oleh penambahan *padding* maupun *border*. Saya juga membuat beberapa *reusable class* (kelas yang dapat digunakan ulang) seperti `.container` untuk membatasi lebar konten, `.section` untuk memberikan jarak (*padding*) vertikal yang konsisten antar bagian, serta `.project-card` yang mempercepat proses *styling* daftar proyek dan layanan jasa.
+Pada tugas individu ini, membangun ulang halaman profil portofolio menjadi dua *file* terpisah, yaitu `index.html` untuk mengatur struktur konten dan `style.css` untuk mengatur presentasi visualnya. Pemisahan ini membuat kode menjadi jauh lebih terstruktur, bersih, dan mudah dikelola. Dalam proses pengembangannya, juga menerapkan konsep *Box Model* . Hal ini diawali dengan menggunakan deklarasi `box-sizing: border-box` pada *universal selector* agar perhitungan dimensi elemen lebih konsisten dan tidak terganggu oleh penambahan *padding* maupun *border*. juga membuat beberapa *reusable class* (kelas yang dapat digunakan ulang) seperti `.container` untuk membatasi lebar konten, `.hero-text` untuk mengatur text bagian heading maupun paragraf dan modifikasi format text-nya.  `.section` untuk memberikan jarak (*padding*) vertikal yang konsisten antar bagian, serta `.project-card` yang mempercepat proses *styling* daftar proyek dan layanan jasa.
 
-Salah satu masalah utama yang saya hadapi saat pengerjaan adalah mengatur agar teks profil dan gambar dapat sejajar rapi, serta susunan kartu proyek tidak berantakan di layar besar. Solusi yang saya terapkan adalah menggunakan CSS Flexbox, yang sangat memudahkan proses penyelarasan dan distribusi ruang antar elemen. Masalah lainnya muncul ketika *website* dibuka di layar yang kecil; susunan elemen menjadi tumpang tindih. Untuk mengatasinya, saya mengimplementasikan *Responsive Web Design* menggunakan *Media Query* dengan *breakpoint* maksimal `768px`. Melalui teknik ini, tata letak elemen yang awalnya berbaris horizontal berhasil saya susun ulang menjadi vertikal (*kolom*), sehingga halaman portofolio tetap fungsional, rapi, dan mudah dibaca di perangkat *mobile*.
+Salah satu masalah yang hadapi saat pengerjaan adalah mengatur agar teks profil dan gambar dapat sejajar rapi, serta susunan kartu proyek tidak berantakan di layar. Solusi yang diterapkan adalah menggunakan CSS Flexbox, yang memudahkan proses penyesuaian ruang antar elemen. Masalah lainnya muncul ketika *website* dibuka di layar yang kecil(mobile) susunan elemen dapat menjadi berantakan. Untuk mengatasinya, mengimplementasikan *Responsive Web Design* menggunakan *Media Query* dengan *breakpoint* maksimal `768px`. Melalui teknik ini, tata letak elemen yang awalnya berbaris horizontal berhasil disusun ulang menjadi vertikal (*kolom*), sehingga halaman portofolio tetap fungsional, rapi, dan mudah dibaca di perangkat *mobile*.
