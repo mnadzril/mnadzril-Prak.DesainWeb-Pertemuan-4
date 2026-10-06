@@ -60,7 +60,7 @@ Digunakan untuk memberikan jarak vertikal (padding atas dan bawah sebesar 70px) 
 Digunakan secara berulang untuk membungkus konten gambar, judul, dan deskripsi baik pada bagian "Project Saya" maupun "Layanan Jasa Saya" agar memiliki gaya bayangan (*box-shadow*), sudut melengkung, dan efek *hover* yang seragam.
 
 **`.hero-text`**
-`.hero-text` untuk mengatur text bagian heading maupun paragraf dan modifikasi format text-ny
+Digunakan untuk mengatur text bagian heading maupun paragraf dan modifikasi format text-ny
 
 ---
 
