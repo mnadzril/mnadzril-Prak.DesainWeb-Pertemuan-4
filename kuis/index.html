@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- BAGIAN HEADER -->
+    <header>
+      <!-- Ganti src dengan link/path foto aslimu -->
+      <img src="images/profil.jpg" alt="Foto Profil" class="profile-pic" />
+      <h1>Halo, Saya Nadzril</h1>
+      <p>Mahasiswa Teknik Informatika | C++ & Web Security Enthusiast</p>
+    </header>
+
+    <!-- BAGIAN PROYEK -->
+    <section id="projects">
+      <h2>Proyek Terbaru</h2>
+      <div class="projects-container">
+        <!-- Grup 1: Border tebal solid, sudut tajam (2 Card) -->
+        <div class="card card-style-1">
+          <h3>Sistem Iuran Angkatan</h3>
+          <p>
+            Aplikasi C++ yang menggunakan array paralel dan fungsi file handling
+            untuk pendataan.
+          </p>
+        </div>
+        <div class="card card-style-1">
+          <h3>Analisis Kerentanan Web</h3>
+          <p>
+            Eksplorasi Bug Bounty dengan fokus pada celah Broken Access Control
+            dan IDOR.
+          </p>
+        </div>
+
+        <div class="card card-style-2">
+          <h3>Visualisasi Data</h3>
+          <p>
+            Script Python memanfaatkan Matplotlib untuk plotting data dari hasil
+            kalkulasi algoritma.
+          </p>
+        </div>
+        <div class="card card-style-2">
+          <h3>Konfigurasi Server Linux</h3>
+          <p>
+            Proses instalasi dan setup jaringan lokal pada environment Parrot OS
+            dan Kali Linux.
+          </p>
+        </div>
+
+        <div class="card card-style-3">
+          <h3>Student</h3>
+          <p>at Pancasila University</p>
+        </div>
+        <div class="card card-style-3">
+          <h3>Audit Keamanan API</h3>
+          <p>
+            Praktik penetration testing pada environment lab untuk analisis
+            respon HTTP.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+    <section id="contact">
+      <h2>Mari Berjejaring</h2>
+      <p>
+        Tertarik untuk berdiskusi soal programming, web security, atau sekadar
+        bertukar ide?
+      </p>
+
+      <!-- Trik CSS tanpa JavaScript menggunakan Checkbox tersembunyi -->
+      <input type="checkbox" id="toggle-contact" class="hidden-checkbox" />
+
+      <!-- Label ini dimanipulasi agar terlihat dan berfungsi seperti tombol -->
+      <label for="toggle-contact" class="contact-btn">Kontak Saya</label>
+
+      <!-- Wadah link media sosial yang akan muncul saat label diklik -->
+      <div id="social-links">
+        <a
+          href="https://www.instagram.com/nadzrilk/"
+          target="_blank"
+          class="ig-link"
+          >Instagram</a
+        >
+        <a href="" target="_blank" class="li-link">LinkedIn</a>
+      </div>
+    </section>
+  </body>
+</html>

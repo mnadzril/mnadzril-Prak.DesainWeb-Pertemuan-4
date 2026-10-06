@@ -1,0 +1,139 @@
+/* =========================================
+   Reset Dasar
+   ========================================= */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* =========================================
+   Header (Warna background diubah)
+   ========================================= */
+header {
+  background-color: #1e3a8a; /* Warna biru navy */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Foto Profil Kotak */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px; /* Sudut sedikit kotak, ubah ke 0 untuk kotak sempurna */
+  border: 3px solid #ffffff;
+  margin-bottom: 15px;
+}
+
+/* =========================================
+   Projects Section (Background diubah)
+   ========================================= */
+#projects {
+  background-color: #f8fafc; /* Warna abu-abu kebiruan yang lembut */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 30px auto 0;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background: #ffffff;
+  box-sizing: border-box;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Style Card Berbeda (2-2-2) */
+.card-style-1 {
+  border: 3px solid #2563eb; /* Biru tebal solid */
+  border-radius: 0px; /* Sudut lancip */
+}
+
+.card-style-2 {
+  border: 4px dashed #10b981; /* Hijau putus-putus */
+  border-radius: 16px; /* Membulat sedang */
+}
+
+.card-style-3 {
+  border: 2px solid #f59e0b; /* Oranye tipis solid */
+  border-radius: 35px; /* Sangat membulat */
+}
+
+/* =========================================
+   Contact Section & CSS Toggle Trick
+   ========================================= */
+#contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Sembunyikan checkbox-nya */
+.hidden-checkbox {
+  display: none;
+}
+
+/* Ubah label menjadi desain tombol */
+.contact-btn {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.contact-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Sembunyikan link sosmed secara default */
+#social-links {
+  display: none;
+  margin-top: 15px;
+}
+
+/* Jika checkbox dicentang (label diklik), tampilkan link sosmed */
+.hidden-checkbox:checked ~ #social-links {
+  display: block;
+}
+
+/* Styling tombol media sosial */
+#social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+#social-links a:hover {
+  transform: translateY(-3px);
+}
+
+.ig-link {
+  background-color: #e1306c;
+}
+.li-link {
+  background-color: #0077b5;
+}
